@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -212,3 +213,219 @@
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Project Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font family -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Dark Mode Base Background */
+            background-color: #111827; 
+        }
+    </style>
+</head>
+<!-- Apply dark mode base text color -->
+<body class="text-gray-100">
+
+    <!-- Navigation Bar (Dark) -->
+    <header class="bg-gray-900 shadow-xl sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-300">PBI Analytics Portfolio</h1>
+            <nav class="space-x-4 hidden md:block">
+                <a href="#overview" class="text-gray-300 hover:text-indigo-400 transition duration-300 font-medium">Overview</a>
+                <a href="#skills" class="text-gray-300 hover:text-indigo-400 transition duration-300 font-medium">Skills</a>
+                <a href="#dashboards" class="text-gray-300 hover:text-indigo-400 transition duration-300 font-medium">Dashboards</a>
+                <a href="#contact" class="text-gray-300 hover:text-indigo-400 transition duration-300 font-medium">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Welcome Page) with Profile Photo -->
+    <section id="hero" class="bg-gray-600 text-white py-20 md:py-24 border-b border-indigo-700">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <!-- Profile Photo Placeholder -->
+            <div class="mb-6">
+                <img src="https://github.com/aiizell/aiizel.github.io/blob/c354c85409ef89665af26f4c27574dfa92837104/Pas%20Foto.jpg?raw=true" 
+                     alt="Your Professional Profile Picture" 
+                     class="w-32 h-32 md:w-50 md:h-40 rounded-full mx-auto object-cover border-4 border-indigo-500 shadow-2xl">
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Aziz Wildan Hakim</h1>
+            <h2 class="text-4xl md:text-3xl font-extrabold mb-4">Data Analyst</h2>
+            <p class="text-xl md:text-2xl mb-8 opacity-80">Transforming complex data into actionable insights using Power BI.</p>
+            <a href="#dashboards" class="inline-block bg-indigo-500 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-indigo-600 transition duration-300 transform hover:scale-105">
+                Explore My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- Skills Section (New Horizontal List) -->
+    <section id="skills" class="py-12 bg-gray-900 border-b border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-2xl font-bold mb-6 text-indigo-400">Core Skillset</h3>
+            <div class="flex flex-wrap justify-center gap-3 md:gap-4">
+                <!-- Skill Tags - Use a subtle background color for contrast -->
+                <span class="bg-gray-700 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full shadow-md hover:bg-gray-600 transition duration-300">DAX</span>
+                <span class="bg-gray-700 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Power Query (M)</span>
+                <span class="bg-gray-700 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full shadow-md hover:bg-gray-600 transition duration-300">SQL</span>
+                <span class="bg-gray-700 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Python for Data Analysis</span>
+                <span class="bg-gray-700 text-indigo-300 text-sm font-medium px-4 py-2 rounded-full shadow-md hover:bg-gray-600 transition duration-300">Report Design & UX</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Overview Section (Dark) -->
+    <section id="overview" class="py-16 md:py-24 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Project Overview & Goals</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Data Source Card (Dark) -->
+                <div class="bg-gray-700 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="text-indigo-400 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10l5-5m0 0l5 5m-5-5h12" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2 text-white">Data Sources</h4>
+                    <p class="text-gray-300">Integrated data from SQL Server, Excel financial dumps, and Salesforce CRM using Power Query.</p>
+                </div>
+
+                <!-- Analysis Card (Dark) -->
+                <div class="bg-gray-700 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="text-indigo-400 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l-2 2h4V6l2 2h4V6l-2 2h4v11z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2 text-white">Key Analysis</h4>
+                    <p class="text-gray-300">Focused on Gross Margin, Growth Margin, Best Categorical, and Customer Lifetime Value (CLV) calculation using advanced DAX.</p>
+                </div>
+
+                <!-- Result Card (Dark) -->
+                <div class="bg-gray-700 p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+                    <div class="text-indigo-400 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2 text-white">Impact & Results</h4>
+                    <p class="text-gray-300">Providing real-time dashboard that indicate the growth and contraction from the report.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Showcase Section (Dark) -->
+    <section id="dashboards" class="py-16 md:py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Interactive Dashboards</h3>
+
+            <!-- Dashboard Item 1 (Dark) -->
+            <div class="mb-16 bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700">
+                <h4 class="text-2xl font-semibold mb-4 text-indigo-500">1. Coffee Sales Dashboard</h4>
+
+                <!-- 
+                    *** IMPORTANT: POWER BI EMBED INSTRUCTION ***
+                    Replace the placeholder below with the actual Power BI embed code (iframe).
+                -->
+                <div class="relative w-full overflow-hidden rounded-lg border-4 border-indigo-700" style="padding-top: 56.25%;">
+                    <!-- Placeholder for Power BI iFrame or Image -->
+                    <div class="absolute inset-0 bg-gray-700 flex items-center justify-center">
+                        <img src="https://github.com/aiizell/aiizel.github.io/blob/1eae8a4df67cafcee0ab7f429912332b5839d5b5/coffeedashboard.png?raw=true"
+                             alt="Coffee Sales Dashboard" 
+                             class="w-full h-full object-cover opacity-100">
+                        <!-- <div class="absolute p-4 bg-black bg-opacity-50 text-white text-center rounded-lg">
+                             <p class="font-bold text-lg">Replace this with your Power BI Embed iFrame</p>
+                             <p class="text-sm">Aspect Ratio (16:9) maintained for responsiveness.</p>
+                        </div> -->
+                    </div>
+                    <!-- Your Power BI iFrame would go here: 
+                    <iframe title="Example Dashboard" width="100%" height="100%" src="..." frameborder="0" allowFullScreen="true" class="absolute inset-0"></iframe>
+                    -->
+                </div>
+
+                <p class="mt-4 text-gray-300">
+                    <span class="font-bold text-white">Focus:</span> Knowing best product, Income per Month, growth over month, best time of the day and week.
+                </p>
+            </div>
+
+            <!-- Dashboard Item 2 (Dark) -->
+            <div class="mb-16 bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700">
+                <h4 class="text-2xl font-semibold mb-4 text-indigo-500">2. Property & Real Estates Sales</h4>
+                
+                <div class="relative w-full overflow-hidden rounded-lg border-4 border-indigo-700" style="padding-top: 56.25%;">
+                    <!-- Placeholder for Power BI iFrame or Image -->
+                    <div class="absolute inset-0 bg-gray-700 flex items-center justify-center">
+                         <img src="https://github.com/aiizell/aiizel.github.io/blob/8aeef78c7807061b5e22a9029921c3060e8606ce/Property.png?raw=true" 
+                              alt="Sales and Inventory Dashboard Placeholder" 
+                              class="w-full h-full object-cover opacity-100">
+                    </div>
+                </div>
+
+                <p class="mt-4 text-gray-300">
+                    <span class="font-bold text-white">Focus:</span> Total Sale, Growth per Year, Total Property Sold, Most Profitable Town, The most Property Type sold.
+                </p>
+            </div>
+
+            <!-- Dashboard Item 3 (Dark) -->
+            <div class="mb-16 bg-gray-800 p-6 rounded-xl shadow-2xl border border-gray-700">
+                <h4 class="text-2xl font-semibold mb-4 text-indigo-500">3. Coming Soon</h4>
+                
+                <div class="relative w-full overflow-hidden rounded-lg border-4 border-indigo-700" style="padding-top: 56.25%;">
+                    <!-- Placeholder for Power BI iFrame or Image -->
+                    <div class="absolute inset-0 bg-gray-700 flex items-center justify-center">
+                         <img src="https://placehold.co/1024x576/374151/ffffff?text=DASHBOARD+PREVIEW+2" 
+                              alt="Sales and Inventory Dashboard Placeholder" 
+                              class="w-full h-full object-cover opacity-50">
+                        <div class="absolute p-4 bg-black bg-opacity-50 text-white text-center rounded-lg">
+                             <p class="font-bold text-lg">Coming Soon</p>
+                             <!-- <p class="text-sm">Aspect Ratio (16:9) maintained for responsiveness.</p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <p class="mt-4 text-gray-300">
+                    <span class="font-bold text-white">Focus:</span> Detailed look at product performance, inventory turnover rates, and forecasted demand. Features a waterfall chart for variance analysis.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section (Dark) -->
+    <section id="contact" class="py-16 md:py-24 bg-indigo-900 text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h3>
+            <p class="text-xl mb-8 opacity-90">I am always looking for new data challenges and opportunities.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=azizwildan60@gmail.com" class="bg-white text-indigo-700 font-semibold py-3 px-6 rounded-lg shadow-xl hover:bg-indigo-100 transition duration-300 transform hover:scale-105" target="_blank">
+                    Email Me
+                </a>
+                <a href="https://linkedin.com/in/azizwildan" target="_blank" class="bg-indigo-500 text-white font-semibold py-3 px-6 rounded-lg shadow-xl border border-indigo-500 hover:bg-indigo-600 transition duration-300 transform hover:scale-105">
+                    LinkedIn Profile
+                </a>
+                <a href="https://github.com/aiizell" target="_blank" class="bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg shadow-xl border border-gray-700 hover:bg-gray-800 transition duration-300 transform hover:scale-105">
+                    GitHub Repo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Dark) -->
+    <footer class="bg-gray-950 text-center py-6 text-gray-400 text-sm">
+        &copy; 2025 Aziz Wildan Hakim. Hosted on GitHub Pages.
+    </footer>
+
+</body>
+</html>
+>>>>>>> 2b313dfe5a302306b714daa30121103ed55e4d73
